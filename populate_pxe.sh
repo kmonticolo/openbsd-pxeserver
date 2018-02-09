@@ -1,7 +1,5 @@
 
-#VERD="6.2"
-VERD=$1
-[ -z "$VERD" ] && echo "usage $0 <version>" && exit 1
+VERD="6.2"
 
 VER=$(echo $VERD|sed 's/\.//')
 cd /tftp
