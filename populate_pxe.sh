@@ -1,3 +1,4 @@
+#!/bin/bash
 
 VERD="6.2"
 
